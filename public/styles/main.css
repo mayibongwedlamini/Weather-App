@@ -1,0 +1,26 @@
+/* body styling  */
+body {
+
+    background-image: url("../images/sunny_back.jpg");
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+}
+
+/* footer styling */
+.footer {
+    padding-top: 10px;
+}
+
+/* temperature display stlying */
+
+#temperature{
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
