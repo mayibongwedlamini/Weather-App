@@ -1,44 +1,41 @@
 /* body styling  */
 body {
-
-    background-image: url("../images/sunny_back.jpg");
-
+  background-image: url("../images/sunny_back.jpg");
 }
-
 
 /* footer styling */
 .footer {
-    padding-top: 10px;
-    align-items: center;
+  padding-top: 10px;
+  align-items: center;
 }
-
 
 /* Home Page Styling */
 .home-page {
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
-    align-items: center;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.home-page h1 {
+  font-family: "Sedan", serif;
 }
 
 /* Data page styling*/
 
-
 .search-bar {
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    font-size: 16px;
-    align-items: center;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 16px;
+  align-items: center;
 }
 
 /* temperature display stlying */
 #temperature {
-    font-weight: bolder;
-    font-size: xx-large;
-
+  font-weight: bolder;
+  font-size: xx-large;
 }
